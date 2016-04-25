@@ -30,7 +30,7 @@ public class CustomBackgroundGenerator implements BackgroundGenerator{
 		BufferedImage bufferedImage = null;
 		
 		try {
-			//1.»ñÈ¡±³¾°Í¼Æ¬ÎÄ¼ş
+			//1.ç”ŸæˆèƒŒæ™¯å›¾ç‰‡çš„è·¯å¾„
 			Random r = new Random();
 			int i = r.nextInt(59);
 			String name = "captcha_bg_"+i+".jpg";
@@ -57,8 +57,4 @@ public class CustomBackgroundGenerator implements BackgroundGenerator{
 		return imageWidth;
 	}
 
-//	public static void main(String[] args) {
-//		CustomBackgroundGenerator g = new CustomBackgroundGenerator();
-//		g.getBackground();
-//	}
 }
